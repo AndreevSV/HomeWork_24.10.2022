@@ -1,7 +1,7 @@
 public class Author {
-    String name; // Инициализируем переменную для name
-    String surname; // Инициализируем переменную для surname
-    String author; // Инициализируем переменную для author (полное имя)
+    private final String name; // Инициализируем переменную для name
+    private final String surname; // Инициализируем переменную для surname
+    private final String author; // Инициализируем переменную для author (полное имя)
 
     public Author(String name, String surname) { // Создаем объект Author
         this.name = name;

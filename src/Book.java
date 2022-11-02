@@ -1,6 +1,6 @@
 public class Book {
-    String bookName; // Инициализируем переменную названия кники
-    int publicationYear; //Инициализируем переменную года публикации
+    private final String bookName; // Инициализируем переменную названия кники
+    private int publicationYear; //Инициализируем переменную года публикации
     Author author;
 
     public Book(String bookName, int publicationYear, Author author) {
